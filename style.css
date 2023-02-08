@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section{
+    background-color: hsl(217, 54%, 11%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+    /* width: 200px; */
+    border-radius: 14px;
+}
+
+.image img{
+    width: 175px;
+    height: 175px;
+    padding: 15px 15px 0px 15px;
+}
+
+img{
+    border-radius: 15px;
+}
